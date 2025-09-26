@@ -80,7 +80,7 @@ elif "Comp 163" not in study_options:
     print("Class Invalid")
 
 if current_gpa is not float:
-    print("Gpa must be float")
+    print("Gpa must be float") 
     
 
 
@@ -92,4 +92,5 @@ if current_gpa is not float:
 
 
     
+
 
