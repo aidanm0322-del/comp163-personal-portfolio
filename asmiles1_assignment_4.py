@@ -43,4 +43,5 @@ elif choice == "C":
     print(f" You maintained a 3.5 gpa with great atudy habits low social points and low stress levels" )
 #If user inputs something other than A,B,C then print Invalid
 else: 
-    print("Invalid Input")
+
+    print("Invalid Input") 
