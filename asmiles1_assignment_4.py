@@ -93,7 +93,8 @@ elif current_gpa >= 3.5 and stress_level >= 50:
 
 elif current_gpa >= 2.5 and stress_level >= 70:
     print("Ending 3: Alright")
-    print("You did alright but your stress levels was high but you also had a great social life")
+    print("You did alright but your stress levels was high but you also had a great social life") 
+
 
 
 
