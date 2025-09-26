@@ -80,9 +80,21 @@ elif "Comp 163" not in study_options:
     print("Class Invalid")
 
 if current_gpa is not float:
-    print("Gpa must be float") 
+    print("Gpa must be float")
     
 
+elif current_gpa == 4.0 and stress_level >= 40:
+    print("Ending 2: Achiveing Scholar")
+    print("You achived a perfect 4.0 gpa but you stress levels are high and social life was terrible")
+
+elif current_gpa >= 3.5 and stress_level >= 50:
+    print(" Ending 1: Good Scholar ")
+    print("You achieved near-perfect academic results, but at a severe cost. Your stress level is dangerously high, and your social life suffered. You need a long vacation!")
+
+elif current_gpa >= 2.5 and stress_level >= 70:
+    print("Ending 3: Alright")
+    print("You did alright but your stress levels was high but you also had a great social life")
+
 
 
 
@@ -92,5 +104,3 @@ if current_gpa is not float:
 
 
     
-
-
