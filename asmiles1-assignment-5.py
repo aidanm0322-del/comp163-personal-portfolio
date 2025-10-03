@@ -33,7 +33,7 @@ if n > 1:
         break # if n is prime the loop will stop right here but if not it will drop to the else statement
     else:
         print(f"{n} is prime!")
-print()
+print() 
 
     
 
