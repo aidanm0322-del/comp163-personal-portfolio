@@ -49,4 +49,4 @@ for row in range(1,11):
     for col in range(1,11):
         product= row * col
         print(f"{product:4}", end="") # Prints the products of row * coulumn 
-    print()
+    print() 
