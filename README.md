@@ -17,9 +17,14 @@ Yes, I used AI to debug my code, and I asked it to clarify some of the direction
 Assignment 5 Loop design documentation
 
 •	Why did you choose each loop type for each challenge
+
 First challenge, I chose a while loop because I wanted it to print the number sequence until it got to one. For the second challenge, I chose a for loop because I wanted everything in the range from 2 to n, and once it determined if the number was even, I wanted it to stop the whole loop and print that the number is prime. For challenge 3, I chose a nested loop because it goes through all the columns and for every row without having to write a singular line for each column. 
+
 •	How your solutions work
+
 My solution work by the first challenge will continue to print out numbers until they get to 1, which will terminate the loop. The second solution works because it checks to see if a prime number is divisible by one, but if the break statement isn't used, the else statement will be printed. The third challenge works by creating a row-by-row and column-by-column approach instead of manually printing all those ranges for the multiplication challenge.  
+
 •	Any AI assistance used
+
 I used AI to help me debug the code when certain parts weren't working, like when my 17 was printing, it was not prim,e but it is indeed a prime number. I also had AI break down to me how to use the print("", end="") statement. 
 
