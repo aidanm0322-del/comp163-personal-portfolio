@@ -33,7 +33,20 @@ if n > 1:
         break # if n is prime the loop will stop right here but if not it will drop to the else statement
     else:
         print(f"{n} is prime!")
-print() 
+print()
 
-    
 
+# Challange 3: Multipilcation Table Grid
+print(f"=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+
+for header in range(1,11):
+    print(f"{header:4}", end="") #Prints the header number from 1 to 10 
+print()
+
+for row in range(1,11):
+    print(f"{row:2}", end="") #Prints the row numbers from 1 to 10
+    for col in range(1,11):
+        product= row * col
+        print(f"{product:4}", end="") # Prints the products of row * coulumn 
+    print()
