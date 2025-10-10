@@ -28,3 +28,7 @@ My solution work by the first challenge will continue to print out numbers until
 
 I used AI to help me debug the code when certain parts weren't working, like when my 17 was printing, it was not prim,e but it is indeed a prime number. I also had AI break down to me how to use the print("", end="") statement. 
 
+
+Assignment 6 
+This is a program that takes contact information that is inputted of any type of way and converts and outputs it in a certian way that makes eveything alined and look neat.
+
