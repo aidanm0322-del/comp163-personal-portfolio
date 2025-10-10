@@ -52,7 +52,24 @@ while True:
     address = parts[3]
     address = address.strip()
     address = address.title()
-    address = address.replace("Nc", "NC") 
+    address = address.replace("Nc", "NC")
 
+    print(f"CONTACT {contact_number}:")
+    print(f"Name:     {name}")
+    print(f"Phone:{phone_num}")
+    print(f"Email:    {email}")
+    print(f"Address:  {address}")
+    print()
+   
+    contacts.append(f"{last_first:<30}{phone_num:<23}{email}")
+   
+    contact_number += 1
     
+print(f"=== DIRECTORY SUMMARY ===")
+print(f"Total contacts processed: {contact_count}")
+print()
+print("=== FORMATTED FOR PRINTING ===")
 
+#format for print loop 
+for line in contacts:
+    print(line)
