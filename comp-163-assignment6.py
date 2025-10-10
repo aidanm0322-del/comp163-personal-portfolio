@@ -1,4 +1,8 @@
+#This program takes a users 4 inputs name, phone number, email and address and formats it a specific way and then in the end prints all the users information that was inputted. 
 
+#Used Ai to help me with index errors also used it to help with syntax errors when certain print statements where printing in the incorrect lines due to the loops. 
+
+#Format that the user inputs their information
 print("Enter contact information (format: name|phone|email|address):")
 print()
 print("=== CONTACT DIRECTORY ===")
@@ -31,10 +35,23 @@ while True:
     else:
         last_first=name
 
+    #phone format 
+    phone = parts[1]
+    digits_only = ""
+    for char in phone:
+        if char.isdigit():
+            digits_only += char
+    phone_num = f"    ({digits_only[0:3]}) {digits_only[3:6]}-{digits_only[6:]}"
+    
+    #email format 
+    email = parts[2]
+    email = email.strip()
+    email = email.lower()
+    
     #Address format 
     address = parts[3]
     address = address.strip()
     address = address.title()
     address = address.replace("Nc", "NC")
 
-
+    
