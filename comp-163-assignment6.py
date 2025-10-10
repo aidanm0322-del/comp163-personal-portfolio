@@ -52,6 +52,7 @@ while True:
     address = parts[3]
     address = address.strip()
     address = address.title()
-    address = address.replace("Nc", "NC")
+    address = address.replace("Nc", "NC") 
 
     
+
