@@ -17,6 +17,7 @@ while True:
         break
 
     contact_count += 1
-    parts = contact.split("|")
+    parts = contact.split("|") 
     
+
    
