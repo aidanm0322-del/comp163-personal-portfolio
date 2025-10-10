@@ -7,3 +7,4 @@ name=contact_1.split("|")[0]
 name=name.title()
 name=name.strip()
 phone=contact_1.split("|")[1]
+ 
